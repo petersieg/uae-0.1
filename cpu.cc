@@ -1738,13 +1738,10 @@ void MC68000_step()
   }
 }
 
-//PS extern void SDLPoll();
-
 void MC68000_skip(CPTR nextpc)
 {
   do {
     MC68000_step();
-    //PS SDLPoll();
   } while (nextpc != regs.pc);
 }
 
