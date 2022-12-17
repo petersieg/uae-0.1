@@ -1,3 +1,12 @@
+This is here for historic reasons only! This is the work of Copyright 1995 Bernd Schmidt.
+Minor changes were required to have it compile under debian 8. See diff.txt in directory 'org'.
+Just run make now - do NOT recreate the Makefile anymore!
+A kick.rom file is NOT included here for obvious reasons, but MUST be supplied to run uae.
+See also: 
+https://virtuallyfun.com/2016/04/17/uae-0-1-the-unusable-amiga-emulator/comment-page-1/#comment-313515
+
+-=-=-=-=-=-=-
+
 This is version 0.1 of UAE, the Unusable Amiga Emulator for Un*x systems.
 
 1. <stddisclaim.h>
