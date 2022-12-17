@@ -1,6 +1,0 @@
-7,8c7,8
-< #include <iostream.h>
-< #include <iomanip.h>
----
-> #include <iostream>
-> #include <iomanip>
