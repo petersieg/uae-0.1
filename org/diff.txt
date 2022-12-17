@@ -34,13 +34,6 @@ diff  cpu :
 > #include <iomanip>
 31a34
 > #include <stdlib.h>
-105a109
-> 
-1736a1741,1742
-> //PS extern void SDLPoll();
-> 
-1740a1747
->     //PS SDLPoll();
  
 diff  custom : 
 ===============
