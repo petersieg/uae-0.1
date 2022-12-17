@@ -1,0 +1,5 @@
+#!/bin/sh
+echo ' ' >>diff.txt
+echo 'diff ' $1 ': ' >>diff.txt
+echo '===============' >>diff.txt
+diff $1.cc ../$1.cc >>diff.txt

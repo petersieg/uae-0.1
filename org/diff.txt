@@ -1,0 +1,89 @@
+ 
+diff  main : 
+===============
+7,8c7,8
+< #include <iostream.h>
+< #include <iomanip.h>
+---
+> #include <iostream>
+> #include <iomanip>
+ 
+diff  memory : 
+===============
+12,13c12,14
+< #include <iostream.h>
+< #include <fstream.h>
+---
+> #include <iostream>
+> using namespace std;
+> #include <fstream>
+76c77
+<   ifstream romin(romfile);
+---
+>   ifstream romin(romfile,ios::in | ios::binary);
+ 
+diff  cpu : 
+===============
+28,29c28,31
+< #include <iostream.h>
+< #include <iomanip.h>
+---
+> #include <iostream>
+> using namespace std;
+> 
+> #include <iomanip>
+31a34
+> #include <stdlib.h>
+105a109
+> 
+1736a1741,1742
+> //PS extern void SDLPoll();
+> 
+1740a1747
+>     //PS SDLPoll();
+ 
+diff  custom : 
+===============
+29,30c29,31
+< #include <iostream.h>
+< #include <iomanip.h>
+---
+> #include <iostream>
+> using namespace std;
+> #include <iomanip>
+ 
+diff  cia : 
+===============
+13,14c13,15
+< #include <iostream.h>
+< #include <iomanip.h>
+---
+> #include <iostream>
+> using namespace std;
+> #include <iomanip>
+ 
+diff  disk : 
+===============
+10,11c10,12
+< #include <iostream.h>
+< #include <iomanip.h>
+---
+> #include <iostream>
+> using namespace std;
+> #include <iomanip>
+60c61
+<   diskfile = fopen(fname,"r+");
+---
+>   diskfile = fopen(fname,"rb+");
+ 
+diff  debug : 
+===============
+11,12c11,12
+< #include <iostream.h>
+< #include <iomanip.h>
+---
+> #include <iostream>
+> #include <iomanip>
+18a19,20
+> 
+> using namespace std;
